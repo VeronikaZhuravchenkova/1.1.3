@@ -28,7 +28,7 @@ public final class Util {
             try {
                 connection.close();
             } catch (SQLException e) {
-                logger.log(Level.SEVERE, "ошибка подключения к базе данных", e);
+                logger.log(Level.SEVERE, "ошибка закрытии соединения", e);
             }
         }
     }
